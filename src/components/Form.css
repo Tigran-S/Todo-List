@@ -1,0 +1,137 @@
+.task {
+  position: absolute;
+  left: 80px;
+  top: 200px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #174348;
+}
+.rectangle1 {
+  position: absolute;
+  border: 1px solid #ffcd04;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 52px;
+  width: 954px;
+  left: 80px;
+  top: 256px;
+}
+.rectangle2 {
+  height: 52px;
+  width: 100px;
+  left: 1058px;
+  top: 256px;
+  border-radius: 4px;
+  position: absolute;
+  background: #008594;
+  cursor: pointer;
+}
+.maxcharacters {
+  position: absolute;
+  width: 271px;
+  height: 18px;
+  left: 82px;
+  top: 295px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #ff3104;
+}
+.add {
+  left: 31.5px;
+  bottom: -12px;
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.life {
+  position: absolute;
+  width: 484px;
+  height: 36px;
+  left: 478px;
+  top: 448px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #acacac;
+}
+.addtask {
+  position: absolute;
+  width: 631px;
+  height: 54px;
+  left: 422px;
+  top: 484px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.002em;
+  text-transform: capitalize;
+  color: #666666;
+}
+@media screen and (max-width: 900px) {
+  .rectangle1 {
+    height: 44px;
+    width: 327px;
+    left: 24px;
+    top: 195px;
+  }
+  .rectangle2 {
+    height: 44px;
+    width: 92px;
+    left: 255px;
+    top: 255px;
+  }
+  .task {
+    height: 27px;
+    width: 38px;
+    left: 27px;
+    top: 136px;
+  }
+  .life {
+    height: 21px;
+    width: 286px;
+    left: 44px;
+    top: 419px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+  }
+  .add {
+    bottom: -15px;
+  }
+  .addtask {
+    height: 27px;
+    width: 316px;
+    left: 29.5px;
+    top: 440px;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: 0.002em;
+    text-align: left;
+  }
+  .maxcharacters {
+    left: 29px;
+    top: 229px;
+  }
+}

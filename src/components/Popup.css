@@ -1,0 +1,79 @@
+.toggle {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  left: 520px;
+  top: 395.81px;
+  background: #ffffff;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(196, 196, 196, 0.2));
+}
+.sure {
+  position: absolute;
+  width: 296px;
+  height: 28px;
+  left: 53px;
+  top: 52px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #008594;
+}
+.yes {
+  position: absolute;
+  width: 33px;
+  height: 28px;
+  left: 151px;
+  top: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #174348;
+  cursor: pointer;
+}
+.no {
+  position: absolute;
+  width: 25px;
+  height: 28px;
+  left: 224px;
+  top: 120px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #174348;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .toggle {
+    width: 324px;
+    height: 140px;
+    left: 25.5px;
+    top: 368px;
+  }
+  .sure {
+    width: 296px;
+    height: 28px;
+    left: 39.5px;
+    top: 18px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .yes {
+    left: 87px;
+    top: 70px;
+  }
+  .no {
+    top: 70px;
+    left: 200px;
+  }
+}

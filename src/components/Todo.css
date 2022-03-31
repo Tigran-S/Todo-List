@@ -1,0 +1,75 @@
+.todo {
+  position: relative;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 370px;
+  border-bottom: 1px solid #b6b0b0;
+}
+.delete {
+  position: absolute;
+  left: 83.47%;
+  top: 33.33%;
+  cursor: pointer;
+}
+.checkbox {
+  position: absolute;
+  right: 92.78%;
+  bottom: 33.33%;
+  height: 18px;
+  width: 18px;
+  left: 80px;
+  top: 24px;
+  border-radius: 0px;
+  accent-color: #008594;
+}
+.todo-text {
+  position: absolute;
+  left: 9.44%;
+  top: 13.78%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #666666;
+}
+.vector {
+  position: absolute;
+
+  height: 19px;
+  width: 19px;
+  left: 83px;
+  top: 26px;
+  border-radius: 3px;
+  background: #008594;
+}
+@media screen and (max-width: 900px) {
+  .checkbox {
+    left: 10px;
+    top: 22px;
+  }
+  .todo {
+    height: 94px;
+    width: 366px;
+    margin-left: 15px;
+  }
+  .todo-text {
+    height: 54px;
+    width: 270px;
+    left: 49px;
+    top: 7px;
+    word-wrap: break-word;
+  }
+  .delete {
+    top: 12.4%;
+    left: 91.2%;
+  }
+
+  .vector {
+    height: 18px;
+    width: 18px;
+    left: 14px;
+    top: 24px;
+  }
+}
