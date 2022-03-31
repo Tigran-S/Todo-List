@@ -1,31 +1,30 @@
 .todo {
   position: relative;
-  width: 1440px;
+  width: 1133px;
   height: 72px;
   left: 0px;
+  margin-left: 70px;
   top: 370px;
   border-bottom: 1px solid #b6b0b0;
 }
 .delete {
   position: absolute;
-  left: 83.47%;
+  left: 97.47%;
   top: 33.33%;
   cursor: pointer;
 }
 .checkbox {
   position: absolute;
-  right: 92.78%;
-  bottom: 33.33%;
   height: 18px;
   width: 18px;
-  left: 80px;
+  left: 7px;
   top: 24px;
   border-radius: 0px;
   accent-color: #008594;
 }
 .todo-text {
   position: absolute;
-  left: 9.44%;
+  left: 4.44%;
   top: 13.78%;
   font-family: "Poppins";
   font-style: normal;
@@ -39,7 +38,7 @@
 
   height: 19px;
   width: 19px;
-  left: 83px;
+  left: 10px;
   top: 26px;
   border-radius: 3px;
   background: #008594;
