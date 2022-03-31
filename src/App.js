@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import "./App.css";
 import Form from "./components/Form";
 import Popup from "./components/Popup";
 import Todo from "./components/Todo";
+import "./App.css";
 
 function App() {
   const [todos, setTodos] = useState(() => {
